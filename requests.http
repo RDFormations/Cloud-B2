@@ -1,0 +1,18 @@
+@baseUrl = https://studabcder-ddf4fwc2b5a4f9f6.eastus-01.azurewebsites.net/api
+
+### GET all tasks
+GET {{baseUrl}}/tasks
+
+### POST new task
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+    "title": "Nouvelle tâche AB"
+}
+
+### PUT complete task (id=1)
+PUT {{baseUrl}}/tasks/1/complete
+
+### PUT complete task (id=2)
+PUT {{baseUrl}}/tasks/2/complete
