@@ -103,3 +103,9 @@ azure-functions-todo/
 - [ ] La validation des entrées est implémentée
 - [ ] Les erreurs sont gérées proprement
 - [ ] Le code est propre et documenté
+
+
+# Tips
+
+app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
+
